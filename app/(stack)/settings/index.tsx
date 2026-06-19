@@ -2,7 +2,7 @@ import { View, Text } from 'react-native';
 const SettingsScreen = () => {
   return (
     <View>
-      <Text>Settings</Text>
+      <Text>Screen Settings</Text>
     </View>
   );
 };

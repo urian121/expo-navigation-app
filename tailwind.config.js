@@ -1,14 +1,14 @@
+const nativewindPreset = require('nativewind/dist/tailwind');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}",
-    "./presentation/**/*.{js,jsx,ts,tsx}",
+    './app/**/*.{js,jsx,ts,tsx}',
+    './components/**/*.{js,jsx,ts,tsx}',
   ],
-  presets: [ require( "nativewind/preset" ) ],
+  presets: [nativewindPreset],
   theme: {
     extend: {
-
       colors: {
         primary: '#49129C',
         secondary: {
@@ -16,22 +16,14 @@ module.exports = {
           100: '#C51297',
           200: '#831266',
         },
-        tertiary: '#EF2967'
-
-
+        tertiary: '#EF2967',
       },
-
-
-
       fontFamily: {
-        'work-black': [ 'WorkSans-Black', 'sans-serif' ],
-        'work-light': [ 'WorkSans-Light', 'sans-serif' ],
-        'work-medium': [ 'WorkSans-Medium', 'sans-serif' ],
-      }
-
-
+        'work-black': ['WorkSans-Black', 'sans-serif'],
+        'work-light': ['WorkSans-Light', 'sans-serif'],
+        'work-medium': ['WorkSans-Medium', 'sans-serif'],
+      },
     },
   },
   plugins: [],
-}
-
+};

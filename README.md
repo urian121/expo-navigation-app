@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Expo Navigation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil con **Expo Router** y **NativeWind** para practicar navegación por stacks en React Native.  
+Incluye pantallas de inicio, perfil, ajustes y un catálogo de productos con rutas dinámicas.  
+Proyecto educativo pensado para entender flujos de navegación, estilos con Tailwind y estructura de carpetas en Expo.
 
-## Get started
+## Demos
 
-1. Install dependencies
+| Inicio | Productos | Detalle |
+|:---:|:---:|:---:|
+| ![Pantalla de inicio](./demo/demo-1.png) | ![Lista de productos](./demo/demo2.png) | ![Detalle de producto](./demo/demo-3.png) |
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Cómo correr el proyecto
 
 ```bash
-npm run reset-project
+# 1. Clonar e instalar dependencias
+git clone https://github.com/urian121/expo-navigation-app.git
+cd expo-navigation-app
+npm install
+
+# 2. Iniciar Expo
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Luego escanea el QR con **Expo Go** o presiona `a` (Android) / `i` (iOS) en la terminal.
 
-## Learn more
+## Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+- Expo SDK 51
+- Expo Router
+- NativeWind / Tailwind CSS
+- TypeScript
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## ⭐ ¿Te sirvió este proyecto?
 
-Join our community of developers creating universal apps.
+Si te ayudó a aprender navegación en React Native, **déjame una estrella en GitHub**.  
+No cuesta nada y le da visibilidad al repo para que más personas lo encuentren.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+👉 **[Dar estrella en GitHub](https://github.com/urian121/expo-navigation-app)**
+
+¡Gracias por el apoyo! 🚀
